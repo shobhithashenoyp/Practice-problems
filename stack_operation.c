@@ -59,10 +59,10 @@ void display()
         printf("Stack is empty\n");
         return;
     }
-    printf("Elements in the stack are: ");
+    printf("Elements in the stack are:\n ");
     for(int i = top; i >= 0; i--)
     {
-        printf("%d ", stack[i]);
+        printf("%d \n", stack[i]);
     }
     printf("\n");
 }
